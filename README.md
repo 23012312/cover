@@ -98,20 +98,27 @@ Publish the website in the LocalHost.
         position: absolute;
         top: 480px;
         left: 20px;
-        width: 160px;
+        width: 460px;
       }
       .book-cover .line3
       {
         position: absolute;
         bottom:38px;
         left: 20px;
-        width: 115px;
+        width: 460px;
+      }
+      .book-cover .edition{
+        position: absolute;
+        bottom:50px;
+        left:20px;
+        font-size: 20px;
+        color:yellowgreen;
       }
   
   
       .book-cover .author {
         position: absolute;
-        bottom: 25px;
+        bottom: 10px;
         left: 20px;
         font-size: 18px;
         color: orange;
@@ -119,15 +126,15 @@ Publish the website in the LocalHost.
   
       .book-cover .end {
         position: absolute;
-        bottom: 5px;
-        right: 50px;
+        bottom: 10px;
+        right: 30px;
         font-size: 18px;
         color:violet;
       }
       .book-cover .mypic
       {
         position: relative;
-        top:550px;
+        top:530px;
         left: 370px;
         width : 8px;
         height: 8px;
@@ -157,7 +164,7 @@ Publish the website in the LocalHost.
       <div class="mypic"><img src="abhi.jpg"width="120" height="120" ></div>
       <div class="image"><img src="python logo.jpeg"width="250" height="265" ></div>
       <div class="end">CLASSMATE</div>
-  
+      <div class="edition">FIRST EDITION</div>
       <div class="author">K.ABHINESWAR REDDY</div>
   
     </div>
