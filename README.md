@@ -45,8 +45,8 @@ Publish the website in the LocalHost.
       .book-cover {
         width: 500px;
         height: 700px;
-        background-color:brown;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-image: url(python.jpeg);
         margin: 50px auto;
         position: relative;
       }
@@ -68,19 +68,19 @@ Publish the website in the LocalHost.
       }
       .book-cover .title1 {
         position: absolute;
-        top: 80px;
-        left: 50px;
+        top: 130px;
+        left: 70px;
         font-size: 40px;
         font-weight: bold;
         color: red;
       }
       .book-cover .title2 {
         position: absolute;
-        top: 130px;
-        left: 30px;
-        font-size: 40px;
+        top: 180px;
+        left: 35px;
+        font-size: 30px;
         font-weight: bold;
-        color:  grey;
+        color:  rgb(251, 248, 248);
       }
   
      
@@ -142,18 +142,13 @@ Publish the website in the LocalHost.
       }
   
   
-      .book-cover .image {
-        object-fit: cover;
-        position: absolute;
-        top:  220;
-        left: 100;
-      }
+     
     </style>
   </head>
   
   <body>
     <div class="book-cover">
-      <img src="./background.png" alt="Book Cover Image" class="image">
+     
       <div class="insight">CODING</div>
       <div class="line1"><hr style="color:blanchedalmond"></div>
       <div class="title1">ZERO TO CODERS:</div>
@@ -162,7 +157,6 @@ Publish the website in the LocalHost.
       <div class="subtitle2">WITH PYTHON AND C PROGRAM BASICS</div>
       <div class="line3"><hr style="color:blanchedalmond"></div>
       <div class="mypic"><img src="abhi.jpg"width="120" height="120" ></div>
-      <div class="image"><img src="python logo.jpeg"width="250" height="265" ></div>
       <div class="end">CLASSMATE</div>
       <div class="edition">FIRST EDITION</div>
       <div class="author">K.ABHINESWAR REDDY</div>
@@ -174,7 +168,7 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![alt text](<BOOK COVER.png>)
+![alt text](<book cover (2).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
